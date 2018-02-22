@@ -1,0 +1,19 @@
+---
+layout: page
+title: Guests
+permalink: /guests/
+---
+{% for guest in site.data.guests %}
+  <div class="guest" id="{{ guest.name | slugify }}">
+    <div class="avatar" style="background-image:url({{ site.baseurl }}/{{ guest.avatar }});"></div>
+    <h2>{{ guest.name }}  {% if guest.aka %}<small>{{ guest.aka }}</small>{% endif %}</h2>
+    <p>{{ guest.bio }}</p>
+    <p class="guest-links">
+     {% if guest.website %}<icon class="icon-explore"></icon> <a href="{{ guest.website }}" target="_blank">{{ guest.website }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if guest.deviantart %}<icon class="icon-deviantart"></icon> <a href="http://{{ guest.deviantart }}.deviantart.com" target="_blank" class="link-deviantart">{{ guest.deviantart }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if guest.tumblr %}<icon class="icon-tumblr"></icon> <a href="http://{{ guest.tumblr }}.tumblr.com" target="_blank" class="link-tumblr">{{ guest.tumblr }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if guest.youtube %}<icon class="icon-youtube"></icon> <a href="{{ guest.youtube }}" target="_blank" class="link-youtube">{{ guest.youtube }}<icon class="icon-right"></icon></a>{% endif %}
+     {% if guest.twitter %}<a href="https://twitter.com/intent/follow?screen_name={{ guest.twitter }}" target="_blank" class="twitter-button"><icon class="icon-twitter"></icon> Follow @{{ guest.twitter }}</a>{% endif %}
+    </p>
+  </div>
+{% endfor %}
