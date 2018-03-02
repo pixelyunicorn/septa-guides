@@ -119,8 +119,8 @@ columny, .columny {
   }
 }
 
-column, .column {
-  @media print {
+@media print {
+  column, .column {
     flex-basis: 100%!important;
     flex-basis: calc(100% - (#{$spacing-unit} / 2))!important;
     max-width: 100%!important;
