@@ -119,6 +119,14 @@ columny, .columny {
   }
 }
 
+column, .column {
+  @media print {
+    flex-basis: 100%!important;
+    flex-basis: calc(100% - (#{$spacing-unit} / 2))!important;
+    max-width: 100%!important;
+  }
+}
+
 [width="5"] {
   flex-basis: 5%;
   flex-basis: calc(5% - (#{$spacing-unit} / 2));
