@@ -20,7 +20,7 @@ methods:
   - To King of Prussia - Malvern Regional Rail Station, Borough of Malvern, King of Prussia Mall
 - mode: rr
   name: Paoli-Thorndale Line
-  frequency: Ever 15-30 minutes
+  frequency: Every 15-30 minutes
   route: Thorndale to Center City Phialdelphia
   station: Malvern Regional Rail Station
   zone: 4

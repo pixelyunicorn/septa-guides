@@ -9,7 +9,7 @@ zone: 2
 methods:
 - mode: rr
   name: Paoli-Thorndale Line
-  frequency: Ever 15-30 minutes
+  frequency: Every 15-30 minutes
   route: Thorndale to Center City Phialdelphia
   station: Bryn Mawr Regional Rail Station
   zone: 2
@@ -35,7 +35,7 @@ methods:
     - Paoli, Wayne, Villanova, Ardmore, Overbrook, and Upper Darby
 - mode: nhsl
   name: Norristown High Speed Line
-  frequency: Ever 10-20 minutes
+  frequency: Every 10-20 minutes
   route: Norristown to 69th Street Station
   station: Bryn Mawr NHSL Station
   address: County Line Rd & S Bryn Mawr Ave, Bryn Mawr, PA
