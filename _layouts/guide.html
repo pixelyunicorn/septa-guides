@@ -1,6 +1,8 @@
 ---
 layout: blank
 ---
+<print-row>
+<print-column width="50">
 <header style="background-image: url({{ site.baseurl }}{{ page.cover }})">
 	<container>
 		<h1>Hello {{ page.title }}!</h1>
@@ -10,9 +12,10 @@ layout: blank
 		</p> -->
 	</container>
 </header>
-
 <div id="map" style="height:350px"></div>
-
+</print-column>
+<print-column width="50">
+<print-page-break></print-page-break>
 <section id="routes">
 	<container>
 		<h2 class="visible-mobile hidden-desktop">Routes</h2>
@@ -39,6 +42,8 @@ layout: blank
 		</row>
 	</container>
 </section>
+</print-column>
+</print-row>
 <section>
 	<container>
 		<row>

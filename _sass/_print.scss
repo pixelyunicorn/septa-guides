@@ -1,0 +1,64 @@
+@media print {
+print-row, .print-row, print-rows, .print-rows {
+	display: flex;
+	flex: 1;
+	flex-wrap: wrap;
+	margin-left: -$spacing-unit / 2;
+	page-break-after: always;
+}
+print-column, .print-column {
+	display: block;
+	flex: 1 1 auto;
+	flex-grow: 1;
+	flex-basis: 0px;
+	max-width: 100%;
+	margin-bottom: $spacing-unit / 2;
+	padding-left: $spacing-unit / 2;
+}
+container {
+	padding-left: 0;
+	padding-right: 0;
+}
+body {
+	font-size: 13px;
+}
+body, header, section, footer {
+	background: white!important;
+}
+section {
+	padding: 0;
+}
+h1 {
+    font-size: 28px;
+    margin-bottom: 0;
+}
+h2 {
+	font-size: 24px;
+}
+p.lead {
+	font-size: 24px;
+}
+#map {
+	height: 250px;
+	margin-bottom: 1em;
+}
+#routes {
+	font-size: 10px;
+}
+#routes row column {
+	flex-basis: 50% !important;
+	flex-basis: calc(50% - (#{$spacing-unit} / 2)) !important;
+	max-width: 50% !important;
+}
+[data-has-view] {
+	box-shadow: none !important;
+	border: 1px solid lightgray;
+	padding: .75rem;
+	border-radius: 4px;
+	margin-bottom: 0;
+	background: white;
+}
+table {
+	font-size: .85em;
+}
+}
