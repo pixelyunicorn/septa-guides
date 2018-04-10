@@ -1,6 +1,6 @@
 ---
 layout: guide
-title: St Joeph's University
+title: St Joseph's University
 cover: /images/cover-sju.jpg
 permalink: /sju
 lat: 39.9946873
