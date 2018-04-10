@@ -2,7 +2,7 @@
 layout: guide
 title: St Joseph's University
 cover: /images/cover-sju.jpg
-permalink: /sju
+permalink: /sju/
 lat: 39.9946873
 lon: -75.2438345
 bearing: -31.20
