@@ -366,6 +366,11 @@ $septa-cct: #2551A3;
 }
 
 // Mapbox
+#map {
+  height: 400px;
+  height: 60vh;
+}
+
 #map .mapboxgl-marker {
     background-size: cover;
     width: 32px;

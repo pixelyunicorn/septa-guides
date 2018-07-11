@@ -7,12 +7,14 @@ layout: blank
 	<container>
 		<h1>Hello {{ page.title }}!</h1>
 		<p class="lead">Here's your guide to fast, safe, and affordable public transportation around campus.</p>
+		<p class="hidden-print"><a href="../pdf/septa-yac-{{ page.title | slugify }}.pdf" class="button" target="_blank">Download as PDF</a></p>
+		<p class="print-only no-margin-bottom">This is a publication of the SEPTA Youth Advisory Council (YAC).</p>
 		<!-- <p class="visible-mobile hidden-desktop">
 			<a href="#map" class="button">Map</a>  <a href="#routes" class="button">Routes</a> <a href="#fares" class="button">Fares</a> <a href="#apps" class="button">Apps</a> <a href="#routes" class="button">Travel Assistance</a> <a href="#key" class="button">SEPTA Key</a> <a href="#tips" class="button">Tips</a>
 		</p> -->
 	</container>
 </header>
-<div id="map" style="height:350px"></div>
+<div id="map"></div>
 </print-column>
 <print-column width="50">
 <print-page-break></print-page-break>
@@ -212,6 +214,11 @@ layout: blank
 						<li><a href="http://www.septa.org/" target="_blank"><img src='https://icon.now.sh/bookmark' height="16" width="16" alt='bookmark' /> Visit SEPTA.org</a></li>
 					</ul>
 				</div>
+				<div class="card print-only">
+					<p class="no-margin-bottom">
+						This is a publication of the SEPTA Youth Advisory Council (YAC). You can learn more about us and get involved at <u>SEPTAYAC.com</u>.
+					</p>
+				</div>
 			</column>
 		</row>
 	</container>
@@ -294,7 +301,7 @@ var views = {
     '{{ m.name | slugify }}': {
         bearing: 0{% if m.bearing %}{{ m.bearing }}{% endif %},
         center: [{{ m.lon }}, {{ m.lat }}],
-        zoom: 14,
+        zoom: {% if m.zoom %}{{ m.zoom }}{% else %}14{% endif %},
         pitch: 0
     },
     {% endfor %}
@@ -334,6 +341,5 @@ $("[data-has-view]").hover(
 		);
 	}
 );
-
 
 </script>

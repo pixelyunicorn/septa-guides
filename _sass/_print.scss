@@ -1,3 +1,6 @@
+.print-only {
+	display: none;
+}
 @media print {
 print-row, .print-row, print-rows, .print-rows {
 	display: flex;
@@ -36,21 +39,21 @@ h2 {
 	font-size: 24px;
 }
 p.lead {
-	font-size: 24px;
+	font-size: 20px;
 }
 #map {
-	height: 450px;
+	// height: 650px;
 	margin-bottom: 1em;
 }
 #routes {
-	font-size: 10px;
+	font-size: 12px;
 }
 #routes row column {
 	flex-basis: 50% !important;
 	flex-basis: calc(50% - (#{$spacing-unit} / 2)) !important;
 	max-width: 50% !important;
 	ul {
-		font-size: .85em;
+		font-size: .9em;
 		margin-left: 20px;
 		line-height: 1.25em;
 	}
@@ -65,5 +68,11 @@ p.lead {
 }
 table {
 	font-size: .85em;
+}
+.print-only {
+	display: block;
+}
+.hidden-print {
+	display: none;
 }
 }

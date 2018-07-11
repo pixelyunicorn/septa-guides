@@ -18,8 +18,6 @@ methods:
   lon: -75.2390142
   bearing: -31.20
   destinations:
-  - To Exton - Exton Square Mall, Borough of West Chester, West Chester University
-  - To King of Prussia - Malvern Regional Rail Station, Borough of Malvern, King of Prussia Mall
   - 44 Ardmore or Center City
   - 65 Germantown or 69th Street via Wissahickon Trans. Center (connect there for Manayunk)
   - G Lankenau Hospital, Overbrook Station, or South Philly via West Philly
@@ -55,5 +53,4 @@ methods:
     - Transfer (switch vehicles) at 69th Street
     - The Market Frankford Line is a high speed subway/elevated line serving neighborhoods.
     - West Philadelphia, University City, Center City, Old City, and North Philadelphia.
----
 ---

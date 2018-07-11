@@ -4,7 +4,8 @@ title: Delaware Valley University
 cover: /images/cover-delval.jpg
 permalink: /delval/
 lat: 40.2969969,
-lon: -75.159178,17z
+lon: -75.159178
+zoom: 17
 zone: 4
 methods:
 - mode: rr
