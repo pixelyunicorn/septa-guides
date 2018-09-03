@@ -10,7 +10,7 @@ zone: 4
 methods:
 - mode: rr
   name: Lansdale/Doylestown Line
-  frequency: Every 15-30 minutes
+  frequency: Every 60 minutes
   route: Doylestown to Center City Phialdelphia
   station: Delaware Valley University Regional Rail Station
   zone: 4
