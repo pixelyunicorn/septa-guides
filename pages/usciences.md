@@ -50,5 +50,4 @@ methods:
     - FREE Transfer from Trolley Routes 11, 36, 13, 34 to Market Frankford Line at 15th Street!
     - The Broad Street Line is a high speed subway line serving neighborhoods.
     - South Philadelphia, North Philadelphia, Temple University, South Street, and Sports Stadiums.
-
 ---

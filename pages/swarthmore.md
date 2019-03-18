@@ -45,7 +45,6 @@ methods:
   lon: -75.350586
   destinations:
     - Shops, Restaurants, and Businesses along Baltimore Pike
-    - Paoli, Wayne, Villanova, Ardmore, Overbrook, and Upper Darby
 - mode: mfl
   name: Market-Frankford Line
   frequency: Every 10 minutes or less
