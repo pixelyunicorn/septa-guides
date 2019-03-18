@@ -5,6 +5,8 @@ cover: /images/cover-swarthmore.jpg
 permalink: /swarthmore/
 lat: 39.905452
 lon: -75.353417
+zoom: 13
+bearing: 10
 zone: 3
 methods:
 - mode: rr
