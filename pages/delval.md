@@ -5,7 +5,7 @@ cover: /images/cover-delval.jpg
 permalink: /delval/
 lat: 40.2969969,
 lon: -75.159178
-zoom: 17
+zoom: 16.5
 zone: 4
 methods:
 - mode: rr
@@ -15,8 +15,8 @@ methods:
   station: Delaware Valley University Regional Rail Station
   zone: 4
   address: Delaware Valley University, Doylestown Township, PA
-  lat: 40.2973734
-  lon: -75.1629796
+  lat: 40.297301
+  lon: -75.161677
   bearing: -31.20
   destinations:
     - Sports and Entertainment Complexes
