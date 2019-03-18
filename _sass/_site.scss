@@ -88,6 +88,8 @@
 // Page header
 header {
   background-color: $primary;
+  background-position: center;
+  background-size: cover;
   color: $white;
   text-align: center;
   position: relative;
@@ -442,6 +444,13 @@ $septa-cct: #2551A3;
   }
   @include media-query($on-palm) {
     padding: .75rem .35rem .5rem;
+  }
+}
+.card-note {
+  background: lightYellow;
+  margin-bottom: 0;
+  a {
+    display: inline;
   }
 }
 .card-alert {

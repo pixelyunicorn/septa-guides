@@ -9,7 +9,7 @@ bearing: -31.20
 zone: 2
 methods:
 - mode: bus
-  name: Route 44, 65, G, 52, 1
+  name: Routes 44, 65, G, 52, 1
   frequency: Every 10 minutes
   route: Varies
   station: Stops throughout City Ave

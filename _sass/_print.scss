@@ -25,8 +25,14 @@ container {
 body {
 	font-size: 13px;
 }
-body, header, section, footer {
+body, section, footer {
 	background: white!important;
+}
+header {
+	background-color: $primary;
+}
+header p {
+	padding: 0 1em;
 }
 section {
 	padding: 0;
@@ -42,8 +48,8 @@ p.lead {
 	font-size: 20px;
 }
 #map {
-	// height: 650px;
-	margin-bottom: 1em;
+	height: 520px;
+	margin-bottom: 0;
 }
 #routes {
 	font-size: 12px;

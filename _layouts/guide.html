@@ -42,6 +42,7 @@ layout: blank
 			</column>
 			{% endfor %}
 		</row>
+		{% if page.note %}<p class="card card-note">{{ page.note }}</p>{% endif %}
 	</container>
 </section>
 </print-column>

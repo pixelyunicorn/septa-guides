@@ -6,6 +6,7 @@ permalink: /haverford/
 lat: 40.0107249
 lon: -75.3126004
 zone: 2
+note: 'Students traveling for non-academic purposes <a href="https://www.haverford.edu/student-engagement-leadership/office/septa-tickets-process" target="_blank">may request a disposable SEPTA Key card from the Student Activities Office</a>. Those traveling for classes may request funding from the Office of Financial Aid (<a href="mailto:finaid@haverford.edu"  target="_blank">finaid@haverford.edu</a>) for Penn classes, or the Tri-College Philadelphia Program (<a href="ccleary@haverford.edu" target="_blank">ccleary@haverford.edu</a>) for a program course.'
 methods:
 - mode: rr
   name: Paoli-Thorndale Line
