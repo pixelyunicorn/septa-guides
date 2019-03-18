@@ -9,7 +9,7 @@ gems:
    - jekyll-redirect-from
 
 # Metadata
-keywords: "public transportation, philadelphia, college, university, septa, septa yac"
+keywords: "public transportation, Philadelphia, college, university, septa, septa yac"
 google-fonts: "Open+Sans:400,700"
 google-fonts-subsets: "latin"
 google-analytics: "UA-XXXXXXXX-1"
