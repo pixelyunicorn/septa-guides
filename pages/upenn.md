@@ -63,5 +63,4 @@ methods:
     - Philadelphia International Airport
     - Non-stop flights to destinations in North America, South America, Europe, California, and Mexico.
     - Additional Regional Rail service to the suburbs are available at 30th Street Station.
-
 ---
