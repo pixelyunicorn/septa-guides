@@ -3,8 +3,8 @@ layout: guide
 title: UPenn
 cover: /images/cover-usciences.jpg
 permalink: /upenn/
-lat: 39.9468299
-lon: -75.2092919
+lat: 39.952805
+lon: -75.193067
 bearing: 9
 zone: CC
 methods:

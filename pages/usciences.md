@@ -14,8 +14,8 @@ methods:
   route: 13th Street Station to West Philadelphia
   station: Throughout Baltimore, Chester, and Woodland Avenues
   address: Baltimore Ave & 42nd St, Phladelphia
-  lat: 39.9468299
-  lon: -75.2092919
+  lat: 39.948649
+  lon: -75.204885
   bearing: 9
   destinations:
     - 30th Street Station
