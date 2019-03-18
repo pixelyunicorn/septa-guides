@@ -27,7 +27,7 @@ methods:
 - mode: rr
   name: Paoli-Thorndale Line
   frequency: Every 15-30 minutes
-  route: Thorndale to Center City Phialdelphia
+  route: Thorndale to Center City Philadelphia
   station: Overbrook Regional Rail Station
   zone: 2
   address: 2195 N. 63rd Street, Philadelphia, PA 19151

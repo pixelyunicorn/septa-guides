@@ -11,11 +11,11 @@ methods:
 - mode: trolley
   name: Trolley Routes 11, 36, 13, 34
   frequency: Every 10 minutes or less
-  route: 13th Street Station to West Phialdelphia
-  station: Throughout Baltimore, Chester, and Woodland Avenues
-  address: Baltimore Ave & 42nd St, Phladelphia
-  lat: 39.9468299
-  lon: -75.2092919
+  route: 13th Street Station to West Philadelphia
+  station: 36th and 40th Street Stations
+  address: 37th & Spruce St, Philadelphia, PA
+  lat: 39.951011
+  lon: -75.197044
   bearing: 9
   destinations:
     - 30th Street Station
@@ -28,10 +28,10 @@ methods:
   name: Market-Frankford Line
   frequency: Every 10 minutes or less
   route: 69th Street Station to Frankford Station
-  station: 30th Street Station
-  address: 3101 Market St, Upper Darby, PA 19082
-  lat: 39.9548968
-  lon: -75.1833621
+  station: 34th and 40th Street Stations
+  address: 34th & Market St, Philadelphia, PA
+  lat: 39.955835
+  lon: -75.191367
   bearing: 9
   destinations:
     - FREE Transfer from Trolley Routes 11, 36, 13, 34 to Market Frankford Line at 30th Street!
@@ -50,5 +50,18 @@ methods:
     - FREE Transfer from Trolley Routes 11, 36, 13, 34 to Market Frankford Line at 15th Street!
     - The Broad Street Line is a high speed subway line serving neighborhoods.
     - South Philadelphia, North Philadelphia, Temple University, South Street, and Sports Stadiums.
+- mode: rr
+  name: Airport Line
+  frequency: Every 30 minutes on the :27 and :57
+  route: Center City to Philadelphia International Airport
+  station: University City Station
+  address: Convention Ave & South St, Philadelphia, PA 19104
+  lat: 39.947919
+  lon: -75.190399
+  bearing: 9
+  destinations:
+    - Philadelphia International Airport
+    - Non-stop flights to destinations in North America, South America, Europe, California, and Mexico.
+    - Additional Regional Rail service to the suburbs are available at 30th Street Station.
 
 ---

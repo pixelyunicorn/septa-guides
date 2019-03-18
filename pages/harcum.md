@@ -10,7 +10,7 @@ methods:
 - mode: rr
   name: Paoli-Thorndale Line
   frequency: Every 15-30 minutes
-  route: Thorndale to Center City Phialdelphia
+  route: Thorndale to Center City Philadelphia
   station: Bryn Mawr Regional Rail Station
   zone: 2
   address: 54 N Bryn Mawr Ave, Bryn Mawr, PA 19010

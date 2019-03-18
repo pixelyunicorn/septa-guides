@@ -11,7 +11,7 @@ methods:
 - mode: trolley
   name: Trolley Routes 11, 36, 13, 34
   frequency: Every 15-30 minutes
-  route: 13th Street Station to West Phialdelphia
+  route: 13th Street Station to West Philadelphia
   station: Throughout Baltimore, Chester, and Woodland Avenues
   address: Baltimore Ave & 42nd St, Phladelphia
   lat: 39.9468299
